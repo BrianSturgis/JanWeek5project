@@ -5,7 +5,7 @@
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
 <p align="center">Updated on Feb 5th, v1.0 2021</p>
-<p align="center">Mr Robogers Neighborhood</p>
+<p align="center">Super Galactic Calculator</p>
 
 ## Application Description
 
