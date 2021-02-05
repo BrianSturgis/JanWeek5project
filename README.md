@@ -67,12 +67,12 @@ If you would like to run the program through the server, you can type "npm run s
 ## SPECS
 ```JS
 
-
+// create and Object to hold all relevant values
 Test: "should create an instance of Calculator"
 code:calculatorObject();
 Expect:(calculatorObject).toEqual(inputtedAge,0,0);
 
-
+// 
 Test: " should calculate 0 years into Mercury years by returning an array of the number divided by Mercury years"
 code: alienAge();
 Expect:(AlienAge[0]).toEqual([0]);
@@ -89,16 +89,21 @@ Test: "should calculate 0 years into Mercury years by returning an array of the 
 code: alienAge();
 Expect:(AlienAge[0]).toEqual([0]);
 
-Test: ""
 
+Test: "should calculate 0 years into years left to live in Mercury years"
+code: lifeExpectancy();
 Expect:().toEqual();
 
-Test: ""
-
+Test: "should calculate 0 years into years left to live in Venus years"
+code: lifeExpectancy();
 Expect:().toEqual();
 
-Test: ""
+Test: "should calculate 0 years into years left to live in Mars years"
+code: lifeExpectancy();
+Expect:().toEqual();
 
+Test: "should calculate 0 years into years left to live in Jupiter years"
+code: lifeExpectancy();
 Expect:().toEqual();
 
 ```
