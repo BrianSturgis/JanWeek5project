@@ -20,8 +20,17 @@ none as of yet but don't fret as there will be.
 - got to repo location.
 - using git commands clone to local repo
 - or click "download" and unpack on machine
-- open the index.html file to view the website
-- THIS APPLICATION IS INTENDED TO BE USED FULL SCREEN, IN  A BROWSER WINDOW, LANDSCAPE.
+
+## USING THIS APPLICATION
+- This app uses node.js. If you do not already have node.js installed, visit https://nodejs.org/en/download/ and install.
+- After installing node, navigate to the root directory of the cloned repo in a as Command Prompt or Git Bash. 
+- type in "npm install".
+- Then type in "npm run build".
+
+If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
+
+If you use Jest to run your tests, open your terminal and go to the root of the project directory and type in "npm test".
+If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
 
 ## GIT HUB
 - repository location (https://github.com/BrianSturgis/JanWeek4Project
