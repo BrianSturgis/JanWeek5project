@@ -69,24 +69,25 @@ If you would like to run the program through the server, you can type "npm run s
 
 
 Test: "should create an instance of Calculator"
-
+code:calculatorObject();
 Expect:(calculatorObject).toEqual(inputtedAge,0,0);
 
 
 Test: " should calculate 0 years into Mercury years by returning an array of the number divided by Mercury years"
-code: AlienAge();
+code: alienAge();
 Expect:(AlienAge[0]).toEqual([0]);
 
-Test: ""
-Expect:().toEqual();
+Test: "should calculate 0 years into Mercury years by returning an array of the number divided by Venus years"
+code: alienAge();
+Expect:(AlienAge[0]).toEqual([0]);
 
-Test: ""
+Test: "should calculate 0 years into Mercury years by returning an array of the number divided by Mars years"
+code: alienAge();
+Expect:(AlienAge[0]).toEqual([0]);
 
-Expect:().toEqual();
-
-Test: ""
-
-Expect:().toEqual();
+Test: "should calculate 0 years into Mercury years by returning an array of the number divided by Jupiter years"
+code: alienAge();
+Expect:(AlienAge[0]).toEqual([0]);
 
 Test: ""
 
