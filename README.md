@@ -9,7 +9,7 @@
 
 ## Application Description
 
-This web application will take a person's age in years and create a class that does the following:
+This web application will take a person's age in years and do the following:
 
 - Returns their age in Mercury years. (A Mercury year is .24 Earth years.)
 - Returns their age in Venus years. (A Venus year is .62 Earth years.)
