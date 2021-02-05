@@ -66,9 +66,9 @@ If you would like to run the program through the server, you can type "npm run s
 ```JS
 ## SPECS
 
-Test: ""
+Test: "should create an instance of Calculator"
 
-Expect:().toEqual();
+Expect:(calculatorObject).toEqual(inputtedAge,0,0);
 
 Test: ""
 
