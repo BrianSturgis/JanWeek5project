@@ -23,17 +23,38 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.(gif|png|jpe?g)$/,
         use: [
-          'style-loader',
-          'css-loader'
-        ]
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "assets/img/",
+            },
+          },
+        ],
+      },
+      {
+        test: /\.mp3$/,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+          outputPath: 'assets/audio/'
+        }
+      },
+      {
+        test: /\.html$/,
+        use: ["html-loader"],
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
       },
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: "eslint-loader"
-      }
-    ]
-  }
+        loader: "eslint-loader",
+      },
+    ],
+  },
 };
