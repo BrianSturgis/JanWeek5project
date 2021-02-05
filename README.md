@@ -34,12 +34,11 @@ none as of yet but don't fret as there will be.
 ## GIT HUB PAGES 
 - (https://briansturgis.github.io/JanWeek4Project/)
 
+```JS
 ## SPECS
 
 Test: ""
 
-Expect:().toEqual();Test: ""
-
 Expect:().toEqual();
 
 Test: ""
@@ -56,7 +55,9 @@ Expect:().toEqual();
 
 Test: ""
 
-Expect:().toEqual();Test: ""
+Expect:().toEqual();
+
+Test: ""
 
 Expect:().toEqual();
 
@@ -64,7 +65,11 @@ Test: ""
 
 Expect:().toEqual();
 
+Test: ""
 
+Expect:().toEqual();
+
+```
 
 ## Stretch goals
 
