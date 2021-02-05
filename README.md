@@ -37,7 +37,7 @@ This web application will take a person's age in years and create a class that d
 none as of yet but don't fret as there will be.
 
 ## Setup/Installation Requirements
-- repository location (https://github.com/BrianSturgis/JanWeek4Project)
+- repository location (https://github.com/BrianSturgis/JanWeek5Project)
 - open through a git terminal or clone editor.
 - got to repo location.
 - using git commands clone to local repo
@@ -55,13 +55,13 @@ If you use Jest to run your tests, open your terminal and go to the root of the 
 If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
 
 ## GIT HUB
-- repository location (https://github.com/BrianSturgis/JanWeek4Project
+- repository location (https://github.com/BrianSturgis/JanWeek5Project
 - open through a git terminal or clone editor.
 - got to repo location.
 - using git commands clone to local repo or click "download" and unpack on machine
 
 ## GIT HUB PAGES 
-- (https://briansturgis.github.io/JanWeek4Project/)
+- (https://briansturgis.github.io/JanWeek5Project/)
 
 
 ## SPECS
