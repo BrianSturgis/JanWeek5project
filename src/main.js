@@ -6,4 +6,4 @@ import './css/styles.css';
 
 
 
-// biz logic
+// user logic

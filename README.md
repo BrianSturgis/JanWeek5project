@@ -124,7 +124,6 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 * GitHub
 * coffee
 
-
 ## Resources Quoted
 - w3schools
 - Wikipedia
