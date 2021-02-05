@@ -9,9 +9,7 @@
 
 ## Application Description
 
-
 ## The projects objectives were to complete the following (MVP)
-
 
 ## Known Bugs
 none as of yet but don't fret as there will be.
