@@ -7,7 +7,16 @@ export default class Calculator {
     this.alienYears = [];
     this.life = [];
   }
+  alienAge(){
+    
+  }
 }
+
+
+
+
+
+
 
 let test = 0;
 let earthAge = new Calculator(0,0,0);
