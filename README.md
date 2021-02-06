@@ -109,6 +109,14 @@ Expect:().toEqual();
 
 // 
 
+Test: "should determine whether inputtedAge is under 73"
+code: ageCheck();
+Expect:().toEqual();
+
+Test: "should determine whether inputtedAge is over 73"
+code: ageCheck();
+Expect:().toEqual();
+
 
 
 
