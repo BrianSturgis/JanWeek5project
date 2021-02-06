@@ -22,7 +22,7 @@ test('alienAge should calculate 70 years into Mercury years', () => {
   expect(earthAge.alienYears[2]).toEqual(23);
 });
 test('alienAge should calculate 70 years into Mercury years', () => {
-  expect(earthAge.alienYears).toEqual();
+  expect(earthAge.alienYears[2]).toEqual(23);
 });
 
 
