@@ -54,13 +54,8 @@ If you would like to run the program through the server, you can type "npm run s
 If you use Jest to run your tests, open your terminal and go to the root of the project directory and type in "npm test".
 If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
 
-## GIT HUB
-- repository location (https://github.com/BrianSturgis/JanWeek5Project
-- open through a git terminal or clone editor.
-- got to repo location.
-- using git commands clone to local repo or click "download" and unpack on machine
 
-## GIT HUB PAGES 
+## GIT HUB PAGES LINK
 - (https://briansturgis.github.io/JanWeek5Project/)
 
 
@@ -72,7 +67,8 @@ Test: "should create an instance of Calculator"
 code:calculatorObject();
 Expect:(calculatorObject).toEqual(inputtedAge,0,0);
 
-// 
+
+// create an array holding inputted age divided by planets factor
 Test: " should calculate 0 years into Mercury years by returning an array of the number divided by Mercury years"
 code: alienAge();
 Expect:(AlienAge[0]).toEqual([0]);
@@ -90,7 +86,7 @@ code: alienAge();
 Expect:(AlienAge[0]).toEqual([0]);
 
 
-// 
+// should divide overage of ageCheck into planets factor
 Test: "should calculate 0 years into years left to live in Mercury years"
 code: lifeExpectancy();
 Expect:().toEqual();
@@ -107,8 +103,8 @@ Test: "should calculate 0 years into years left to live in Jupiter years"
 code: lifeExpectancy();
 Expect:().toEqual();
 
-// 
 
+// should check whether age is over under 73
 Test: "should determine whether inputtedAge is under 73"
 code: ageCheck();
 Expect:().toEqual();
@@ -116,14 +112,6 @@ Expect:().toEqual();
 Test: "should determine whether inputtedAge is over 73"
 code: ageCheck();
 Expect:().toEqual();
-
-
-
-
-
-
-
-
 
 ```
 
@@ -145,8 +133,7 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 
 ## Resources Quoted
 - w3schools
-- Wikipedia
-- Udemy.com
+- Epicodus Documentation
 
 ### License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:

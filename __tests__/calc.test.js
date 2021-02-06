@@ -4,11 +4,11 @@ describe('Calculator', () => {
   let earthAge;
   beforeEach(() => {
     earthAge = new Calculator(0,0,0);
-    earthAge.alienAge();
-    earthAge.ageCheck();
-    earthAge.lifeExpectancy();
+    
 });
-
+test('Should create and instance of Calculator', () => {
+  
+});
 
 
 });
