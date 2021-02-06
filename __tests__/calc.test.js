@@ -6,6 +6,7 @@ describe('Calculator', () => {
     earthAge = new Calculator(43,0,30);
     earthAge.alienAge();
     earthAge.ageCheck();
+    earthAge.alienExpectancy();
     
 });
 test('Should create and instance of Calculator', () => {
@@ -28,6 +29,9 @@ test('alienAge should calculate 70 years into Mercury years', () => {
 test('ageCheck should calculate the difference of 70 and 73 for determing where total will go to',() => {
   expect(earthAge.pastLife).toEqual(0);  
   expect(earthAge.lifeLeft).toEqual(30);
+});
+test('should calculate 33 years into Mercury years',() => {
+  expect(earthAge.life[0]).toEqual(125);
 });
 
 

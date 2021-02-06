@@ -41,5 +41,5 @@ let earthAge = new Calculator(43);
 
 earthAge.alienAge();
 earthAge.ageCheck();
-
+earthAge.alienExpectancy();
 console.log(earthAge);
