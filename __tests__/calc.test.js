@@ -33,7 +33,5 @@ test('ageCheck should calculate the difference of 70 and 73 for determing where 
 test('should calculate 33 years into Mercury years',() => {
   expect(earthAge.life[0]).toEqual(125);
 });
-
-
 });
 
