@@ -1,4 +1,4 @@
-import Calculator from './../src/js/calc.js';
+import Calculator from './../src/js/calcScripts.js';
 
 describe('Calculator', () => {
   let earthAge;
@@ -6,5 +6,9 @@ describe('Calculator', () => {
     earthAge = new Calculator(0,0,0);
     earthAge.alienAge();
     earthAge.ageCheck();
-    earthAge.alienExpectancy();
+    earthAge.lifeExpectancy();
+});
+
+
+
 });
