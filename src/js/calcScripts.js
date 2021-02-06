@@ -15,12 +15,6 @@ export default class Calculator {
   }
 }
 
-
-
-
-
-
-
 let test = 0;
 let earthAge = new Calculator(43,0,0);
 console.log(earthAge);
