@@ -40,7 +40,7 @@ test('should calculate 33 years into Mercury years',() => {
   expect(earthAge.life[2]).toEqual(16);
 });
 test('should calculate 33 years into Mercury years',() => {
-  expect(earthAge.life[3]).toEqual();
+  expect(earthAge.life[3]).toEqual(3);
 });
 });
 
