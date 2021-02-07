@@ -35,10 +35,8 @@ export default class Calculator {
   }
 }
 
-
 let earthAge = new Calculator(43);
 // console.log(earthAge);
-
 earthAge.alienAge();
 earthAge.ageCheck();
 earthAge.alienExpectancy();
