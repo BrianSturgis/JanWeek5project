@@ -19,11 +19,11 @@ export default class Calculator {
     if (this.age == lifeEx || this.age < lifeEx) {
       age = lifeEx - this.age;
       this.lifeLeft = age;
-      alert(`The average life expectancy of a Human is 73 giving you ${age} years to live.`);
+      // alert(`The average life expectancy of a Human is 73 giving you ${age} years to live.`);
     }else if (this.age > lifeEx) {
       age = this.age - lifeEx;
       this.pastLife = age;
-      alert(`Science says you have live ${age} years past your species life expectancy.`);
+      // alert(`Science says you have live ${age} years past your species life expectancy.`);
     }
   }
   alienExpectancy(){
