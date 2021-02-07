@@ -1,7 +1,6 @@
 
 <div align="center">
-<img src="img/.jpg" width="auto" height="auto" >
-<img src="img/.jpg" width="auto" height="auto" >
+
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
 <p align="center">Updated on Feb 5th, v1.0 2021</p>
@@ -62,13 +61,13 @@ If you would like to run the program through the server, you can type "npm run s
 ## SPECS
 ```JS
 
-// create and Object to hold all relevant values
+// create an Object to hold all relevant key values
 Test: "should create an instance of Calculator"
 code:calculatorObject();
 Expect:(calculatorObject).toEqual(inputtedAge,0,0);
 
 
-// create an array holding inputted age divided by planets factor
+// create an array holding inputted age divided by each planets factor (loop)
 Test: " should calculate 0 years into Mercury years by returning an array of the number divided by Mercury years"
 code: alienAge();
 Expect:(AlienAge[0]).toEqual([0]);
@@ -86,7 +85,7 @@ code: alienAge();
 Expect:(AlienAge[0]).toEqual([0]);
 
 
-// should divide overage of ageCheck into planets factor
+// should divide overage of ageCheck into planets factor (loop)
 Test: "should calculate 0 years into years left to live in Mercury years"
 code: lifeExpectancy();
 Expect:().toEqual();
@@ -104,7 +103,7 @@ code: lifeExpectancy();
 Expect:().toEqual();
 
 
-// should check whether age is over under 73
+// should check whether age is over under 73  (branch or switch)
 Test: "should determine whether inputtedAge is under 73"
 code: ageCheck();
 Expect:().toEqual();
