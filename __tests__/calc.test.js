@@ -64,6 +64,21 @@ test('should test array holding alien years if 3 years 3 years over the avg life
   overEarthAge.alienExpectancy();
   expect(overEarthAge.life[1]).toEqual(5); 
 });
+test('should test array holding alien years if 3 years 3 years over the avg lifespan in Jupiter  Years',() => {
+  let overEarthAge = new Calculator (76)
+  overEarthAge.alienAge();
+  overEarthAge.ageCheck();
+  overEarthAge.alienExpectancy();
+  expect(overEarthAge.life[2]).toEqual(2); 
+});
+test('should test array holding alien years if 3 years 3 years over the avg lifespan in Jupiter  Years',() => {
+  let overEarthAge = new Calculator (76)
+  overEarthAge.alienAge();
+  overEarthAge.ageCheck();
+  overEarthAge.alienExpectancy();
+  expect(overEarthAge.life[3]).toEqual(); 
+});
+
 
 
 
