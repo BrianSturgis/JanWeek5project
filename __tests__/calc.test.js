@@ -50,6 +50,13 @@ test('Should create and instance of Calculator where user is 0 years over the av
   expect(overEarthAge.pastLife).toEqual(0);  
   expect(overEarthAge.lifeLeft).toEqual(30);
 });
+test('should test array holding alien years if 3 years 3 years over the avg lifespan in Jupiter  Years',() => {
+  let overEarthAge = new Calculator (76)
+  overEarthAge.alienAge();
+  overEarthAge.ageCheck();
+  overEarthAge.alienExpectancy();
+  expect(overEarthAge.life[1]).toEqual(); 
+});
 
 
 
