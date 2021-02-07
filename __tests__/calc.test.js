@@ -78,12 +78,4 @@ test('should test array holding alien years if 3 years 3 years over the avg life
   overEarthAge.alienExpectancy();
   expect(overEarthAge.life[3]).toEqual(0); 
 });
-
-
-
-
-
-
-
 });
-

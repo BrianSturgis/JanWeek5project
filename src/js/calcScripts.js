@@ -1,4 +1,3 @@
-/* eslint-disable */
 export default class Calculator {
   constructor (userInput) {
     this.age = userInput;
@@ -19,11 +18,11 @@ export default class Calculator {
     if (this.age == lifeEx || this.age < lifeEx) {
       age = lifeEx - this.age;
       this.lifeLeft = age;
-      // alert(`The average life expectancy of a Human is 73 giving you ${age} years to live.`);
+      
     }else if (this.age > lifeEx) {
       age = this.age - lifeEx;
       this.pastLife = age;
-      // alert(`Science says you have live ${age} years past your species life expectancy.`);
+      
     }
   }
   alienExpectancy(){
@@ -31,13 +30,5 @@ export default class Calculator {
     for(let i = 0; i < array.length; i++) {
       this.life.push(Math.round(this.pastLife / array[i] || this.lifeLeft / array[i]));
     }
-    
   }
 }
-
-let earthAge = new Calculator(43);
-// console.log(earthAge);
-earthAge.alienAge();
-earthAge.ageCheck();
-earthAge.alienExpectancy();
-console.log(earthAge);
