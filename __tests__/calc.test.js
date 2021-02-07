@@ -55,12 +55,5 @@ test('Should create and instance of Calculator where user is 0 years over the av
 
 
 
-
-
-
-
-
-
-
 });
 
