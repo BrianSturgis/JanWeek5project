@@ -1,5 +1,3 @@
-
-/*eslint-disable*/
 export default class Calculator {
   constructor (userInput) {
     this.age = userInput;
@@ -8,13 +6,13 @@ export default class Calculator {
     this.alienYears = [];
     this.life = [];
   }
-  alienAge(){
+  alienAge() {
     let array = [0.24, 0.62, 1.88, 11.86];
     for(let i = 0; i < array.length; i++) {
       this.alienYears.push(Math.round(this.age  / array[i]));
     }
   }
-  ageCheck(){
+  ageCheck() {
     let age;
     let lifeEx = 73;
     if (this.age == lifeEx || this.age < lifeEx) {
@@ -26,11 +24,10 @@ export default class Calculator {
       this.pastLife = age;
     }
   }
-  alienExpectancy(){
+  alienExpectancy() {
     let array = [0.24, 0.62, 1.88, 11.86];
     for(let i = 0; i < array.length; i++) {
       this.life.push(Math.round(this.pastLife / array[i] || this.lifeLeft / array[i]));
     }
   }
 }
-
