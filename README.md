@@ -23,10 +23,10 @@ This web application will take a person's age in years and do the following:
 - Project utilizes ES6 features including classes and template literals.
 - Dependencies are managed with npm.
 - webpack is used to lint, bundle, and process code.
-- Make your application look nice and give it a solar theme!
 
 ## Stretch Goals
-- A UI for the application.
+- The output is formatted inside of a snarky paragraph and would rather it have the tone of a robot.  I was listening to Bill Burr the Comedian and his snarky personality heavily influenced the content choice.
+- A UI for the application that has css styling.
 - Will return the date of a user's next birthday on each planet.
 - Will return the age Keith Richards will be in dog years on the planet Jupiter in 2073.
 - it will assume that the average lifespan of a mayfly is 5 minutes, then determine how many mayfly lifespans a human user has lived and then compare it the current age (in Earth years) of our sun.
