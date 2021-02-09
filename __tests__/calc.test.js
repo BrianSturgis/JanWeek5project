@@ -1,5 +1,4 @@
 import Calculator from './../src/js/calcScripts.js';
-
 describe('Calculator', () => {
   let earthAge;
   beforeEach(() => {
@@ -7,7 +6,6 @@ describe('Calculator', () => {
     earthAge.alienAge();
     earthAge.ageCheck();
     earthAge.alienExpectancy();
-    
 });
 test('Should create and instance of Calculator', () => {
   expect(earthAge.age).toEqual(43); 
@@ -17,14 +15,14 @@ test('Should create and instance of Calculator', () => {
 test('alienAge should calculate 70 years into Mercury years', () => {
   expect(earthAge.alienYears[0]).toEqual(179);
 });
-test('alienAge should calculate 70 years into Mercury years', () => {
+test('alienAge should calculate 70 years into Venus years', () => {
   expect(earthAge.alienYears[1]).toEqual(69);
 });
-test('alienAge should calculate 70 years into Mercury years', () => {
+test('alienAge should calculate 70 years into Mars years', () => {
   expect(earthAge.alienYears[2]).toEqual(23);
 });
-test('alienAge should calculate 70 years into Mercury years', () => {
-  expect(earthAge.alienYears[2]).toEqual(23);
+test('alienAge should calculate 70 years into Jupiter years', () => {
+  expect(earthAge.alienYears[3]).toEqual(4);
 });
 test('ageCheck should calculate the difference of 70 and 73 for determing where total will go to',() => {
   expect(earthAge.pastLife).toEqual(0);  
@@ -33,13 +31,13 @@ test('ageCheck should calculate the difference of 70 and 73 for determing where 
 test('should calculate 43 years into Mercury years',() => {
   expect(earthAge.life[0]).toEqual(125);
 });
-test('should calculate 43 years into Mercury years',() => {
+test('should calculate 43 years into Venus years',() => {
   expect(earthAge.life[1]).toEqual(48);
 });
-test('should calculate 43 years into Mercury years',() => {
+test('should calculate 43 years into Mars years',() => {
   expect(earthAge.life[2]).toEqual(16);
 });
-test('should calculate 43 years into Mercury years',() => {
+test('should calculate 43 years into Jupiter years',() => {
   expect(earthAge.life[3]).toEqual(3);
 });
 test('Should create and instance of Calculator where user is 0 years over the avg lifespan',() => {
@@ -50,21 +48,21 @@ test('Should create and instance of Calculator where user is 0 years over the av
   expect(overEarthAge.pastLife).toEqual(0);  
   expect(overEarthAge.lifeLeft).toEqual(30);
 });
-test('should test array holding alien years if 3 years 3 years over the avg lifespan in Jupiter  Years',() => {
+test('should test array holding alien years if 3 years 3 years over the avg lifespan in Mercury  Years',() => {
   let overEarthAge = new Calculator (76)
   overEarthAge.alienAge();
   overEarthAge.ageCheck();
   overEarthAge.alienExpectancy();
   expect(overEarthAge.life[0]).toEqual(13); 
 });
-test('should test array holding alien years if 3 years 3 years over the avg lifespan in Jupiter  Years',() => {
+test('should test array holding alien years if 3 years 3 years over the avg lifespan in Venus  Years',() => {
   let overEarthAge = new Calculator (76)
   overEarthAge.alienAge();
   overEarthAge.ageCheck();
   overEarthAge.alienExpectancy();
   expect(overEarthAge.life[1]).toEqual(5); 
 });
-test('should test array holding alien years if 3 years 3 years over the avg lifespan in Jupiter  Years',() => {
+test('should test array holding alien years if 3 years 3 years over the avg lifespan in Mars Years',() => {
   let overEarthAge = new Calculator (76)
   overEarthAge.alienAge();
   overEarthAge.ageCheck();

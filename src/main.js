@@ -7,28 +7,25 @@ import Calculator from './js/calcScripts.js';
 
 
 $(document).ready(function(){
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  let test = 0;
-  console.log(test);
-  let test2 = new Calculator (43)
-  test2.alienAge();
-  test2.ageCheck();
-  test2.alienExpectancy();
-
-
-  console.log(test2);
+  $("#inputNumber").submit(function(event){
+    event.preventDefault();
+    let inputtedAge = parseInt($("#numbers").val());
+    console.log(inputtedAge);
+    let result = new Calculator(inputtedAge);
+    result.alienAge();
+    result.ageCheck();
+    result.alienExpectancy();
+    console.log(result);
+    
+    $(".answer0").text("you would be " + result.alienYears[0] +" years old on Mercury");
+    $(".answer1").text("you would be " + result.alienYears[1] +" years old on Venus");
+    $(".answer2").text("you would be " + result.alienYears[2] +" years old on Mars");
+    $(".answer3").text("you would be " + result.alienYears[3] +" years old on Jupiter");
+    
+  });
 });
+
+
+
+  
+
