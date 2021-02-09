@@ -17,7 +17,7 @@ This web application will take a person's age in years and do the following:
 ## USING THIS APPLICATION
 - This app uses node.js. If you do not already have node.js installed, visit https://nodejs.org/en/download/ and install.
 - After installing node, navigate to the root directory of the cloned repo in a as Command Prompt or Git Bash. 
-- type in "npm install".
+- Type in "npm install".
 - Then type in "npm run build".
 
 If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.  Move to the "dist" folder in root and run a live server from the index
@@ -30,14 +30,14 @@ If you would like to run the program through the server, you can type "npm run s
 - Each spec was committed before writing its corresponding code.
 - Project utilizes ES6 features including classes and template literals.
 - Dependencies are managed with npm.
-- webpack is used to lint, bundle, and process code.
+- Webpack is used to lint, bundle, and process code.
 
 ## Stretch Goals
 - The output is formatted inside of a snarky paragraph and would rather it have the tone of a robot.  I was listening to Bill Burr the Comedian and his snarky personality heavily influenced the content choice.
 - A UI for the application that has css styling.
 - Will return the date of a user's next birthday on each planet.
 - Will return the age Keith Richards will be in dog years on the planet Jupiter in 2073.
-- it will assume that the average lifespan of a mayfly is 5 minutes, then determine how many mayfly lifespans a human user has lived and then compare it the current age (in Earth years) of our sun.
+- It will assume that the average lifespan of a mayfly is 5 minutes, then determine how many mayfly lifespans a human user has lived and then compare it the current age (in Earth years) of our sun.
 
 ## Known Bugs
 none as of yet but don't fret as there will be.
