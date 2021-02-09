@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import Calculator from './js/calcScripts.js';
 
-
 $(document).ready(function(){
   $("#inputNumber").submit(function(event){
     event.preventDefault();
@@ -24,8 +23,3 @@ $(document).ready(function(){
     
   });
 });
-
-
-
-  
-
