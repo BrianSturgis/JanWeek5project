@@ -14,6 +14,17 @@ This web application will take a person's age in years and do the following:
 - Determines how many years a user has left to live on each planet… This function is built into the applications logic but must be displayed via the contents of the applications output.
 - If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy. This function is built into the applications logic but must be displayed via the contents of the applications output.
 
+## USING THIS APPLICATION
+- This app uses node.js. If you do not already have node.js installed, visit https://nodejs.org/en/download/ and install.
+- After installing node, navigate to the root directory of the cloned repo in a as Command Prompt or Git Bash. 
+- type in "npm install".
+- Then type in "npm run build".
+
+If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.  Move to the "dist" folder in root and run a live server from the index
+
+If you use Jest to run your tests, open your terminal and go to the root of the project directory and type in "npm test".
+If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
+
 ## The projects objectives were to complete the following (MVP)
 - Business logic has 100% line coverage with Jest.
 - Each spec was committed before writing its corresponding code.
@@ -38,16 +49,6 @@ none as of yet but don't fret as there will be.
 - using git commands clone to local repo
 - or click "download" and unpack on machine
 
-## USING THIS APPLICATION
-- This app uses node.js. If you do not already have node.js installed, visit https://nodejs.org/en/download/ and install.
-- After installing node, navigate to the root directory of the cloned repo in a as Command Prompt or Git Bash. 
-- type in "npm install".
-- Then type in "npm run build".
-
-If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
-
-If you use Jest to run your tests, open your terminal and go to the root of the project directory and type in "npm test".
-If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
 
 
 ## GIT HUB PAGES LINK
