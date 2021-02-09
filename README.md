@@ -10,10 +10,10 @@
 
 This web application will take a person's age in years and do the following:
 
-- Returns their age in Mercury years. (A Mercury year is .24 Earth years.)
-- Returns their age in Venus years. (A Venus year is .62 Earth years.)
-- Returns their age in Mars years. (A Mars year is 1.88 Earth years.)
-- Returns their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)
+- Returns their age in Mercury years. 
+- Returns their age in Venus years. 
+- Returns their age in Mars years. 
+- Returns their age in Jupiter years. 
 - Determines how many years a user has left to live on each planet…
 - If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy.
 
@@ -30,7 +30,6 @@ This web application will take a person's age in years and do the following:
 - Will return the date of a user's next birthday on each planet.
 - Will return the age Keith Richards will be in dog years on the planet Jupiter in 2073.
 - it will assume that the average lifespan of a mayfly is 5 minutes, then determine how many mayfly lifespans a human user has lived and then compare it the current age (in Earth years) of our sun.
-
 
 ## Known Bugs
 none as of yet but don't fret as there will be.
