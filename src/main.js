@@ -12,9 +12,9 @@ $(document).ready(function() {
     result.alienAge();
     result.ageCheck();
     result.alienExpectancy();
-    $(".answer0").text("you would be " + result.alienYears[0] +" years old on Mercury");
-    $(".answer1").text("you would be " + result.alienYears[1] +" years old on Venus");
-    $(".answer2").text("you would be " + result.alienYears[2] +" years old on Mars");
-    $(".answer3").text("you would be " + result.alienYears[3] +" years old on Jupiter");
+    $(".answer0").text("On Mercury you are " + result.alienYears[0] +" years old");
+    $(".answer1").text("On Venus you would be " + result.alienYears[1] +" years old");
+    $(".answer2").text("But on Mars you would only be " + result.alienYears[2] +" years old, crazy huh?");
+    $(".answer3").text("Then there is Jupiter where you would be " + result.alienYears[3] +" years old.  I don't even get that");
   });
 });

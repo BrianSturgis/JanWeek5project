@@ -10,12 +10,12 @@
 
 This web application will take a person's age in years and do the following:
 
-- Returns their age in Mercury years. 
-- Returns their age in Venus years. 
-- Returns their age in Mars years. 
-- Returns their age in Jupiter years. 
-- Determines how many years a user has left to live on each planet…
-- If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy.
+- Returns their age in Mercury years and can display it in the dom.
+- Returns their age in Venus years and can display it in the dom.. 
+- Returns their age in Mars years and can display it in the dom.. 
+- Returns their age in Jupiter years and can display it in the dom.. 
+- Determines how many years a user has left to live on each planet… This function is built into the applications logic but must be displayed via the contents of the applications output.
+- If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy. This function is built into the applications logic but must be displayed via the contents of the applications output.
 
 ## The projects objectives were to complete the following (MVP)
 - Business logic has 100% line coverage with Jest.
