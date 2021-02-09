@@ -1,13 +1,10 @@
-
 <div align="center">
-
+<p align="center">Super Galactic Age Calculator</p>
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
-<p align="center">Updated on Feb 5th, v1.0 2021</p>
-<p align="center">Super Galactic Age Calculator</p>
+<p align="center">Updated on Feb 8th, v1.5 2021</p>
 
 ## Application Description
-
 This web application will take a person's age in years and do the following:
 
 - Returns their age in Mercury years and can display it in the dom.
